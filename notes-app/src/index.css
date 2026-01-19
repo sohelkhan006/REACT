@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+html,
+body {
+  background: #000046;  
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
+  background: linear-gradient(to right, #1CB5E0, #000046); 
+}
+
+/* background: #2C3E50;
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+background: linear-gradient(to right, #4CA1AF, #2C3E50); */
