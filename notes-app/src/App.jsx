@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import stickyNote from "./assets/sticky-note.png";
 const App = () => {
   const [title, setTitle] = useState("");
   const [details, setDetails] = useState("");
@@ -69,14 +69,17 @@ const App = () => {
             return (
               <div
                 key={idx}
-                className=" flex justify-between flex-col items-start relative h-52 w-40 bg-cover rounded-xl text-black pt-9 pb-4 px-4 bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')]"
+                className=" flex justify-between flex-col items-start relative h-52 w-40 bg-cover rounded-xl text-black pt-9 pb-4 px-4 "
+                style={{
+                  backgroundImage: `url(${stickyNote})`,
+                }}
               >
                 <div>
-                  <h3 className="leading-tight text-lg font-bold">
+                  <h3 className="leading-tight text-lg font-bold text-[rgb(75,46,31)]">
                     {elem.title}
                   </h3>
 
-                  <p className="mt-2 leading-tight text-xs font-semibold text-gray-600">
+                  <p className="mt-2 leading-tight text-xs font-semibold text-[rgb(95,95,95)]">
                     {elem.details}
                   </p>
                 </div>
