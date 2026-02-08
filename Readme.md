@@ -4,24 +4,39 @@ This repository contains multiple small React applications built for learning, p
 
 ---
 
+---
+
+## 🌐 Live Demo
+
+- **Notes App (Live):**  
+  👉 https://sohel-notebook.netlify.app/
+
+---
+
 ## 🗂 Projects Included
 
-### 🃏 Card Project  
+### 🃏 Card Project
+
 A simple React card component project focused on UI structure and styling.
 
-### 🖼️ Gallery Project  
+### 🖼️ Gallery Project
+
 An image gallery application built using React components and layouts.
 
-### 🎲 Lottery Game  
+### 🎲 Lottery Game
+
 A small React app that generates random lottery numbers.
 
-### 📝 Notes App  
+### 📝 Notes App
+
 A basic notes-taking application built with React.
 
-### 🔀 Routing Project  
+### 🔀 Routing Project
+
 A React project demonstrating page navigation and routing concepts.
 
-### 🎨 UI Project  
+### 🎨 UI Project
+
 A collection of user interface components and layout practice in React.
 
 ---
@@ -52,4 +67,3 @@ A collection of user interface components and layout practice in React.
 This repository is created for learning and practicing React concepts.
 
 ---
-
