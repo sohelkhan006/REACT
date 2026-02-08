@@ -11,6 +11,7 @@ This repository contains multiple small React applications built for learning, p
 - **Notes App (Live):**  
   👉 https://sohel-notebook.netlify.app/
 
+  
 ---
 
 ## 🗂 Projects Included
